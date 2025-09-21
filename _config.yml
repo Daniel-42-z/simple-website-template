@@ -1,0 +1,23 @@
+remote_theme: jekyll/minima
+plugins: 
+  - jekyll-remote-theme
+minima:
+  skin: auto # "dark" to force dark, "classic" to force light
+  nav_pages: # Pages that shows up in the top right section
+    - index.md # Home page
+    - articles.md
+    - resources.md
+    - ph-ormula.md # See this file for how to add redirects in the top right section
+title: Your Group Name
+description: Brief description here, no more than 1 sentence
+url: "https://your-website-name.github.io"
+exclude: # Files that can't be accessed from the webpage
+  - README.md
+  - _site/
+  - .sass-cache/
+  - .jekyll-cache/
+  - .jekyll-metadata
+  - .bundle/
+  - Gemfile.lock
+kramdown:
+  math_engine: mathjax
