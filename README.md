@@ -52,3 +52,11 @@ This guide explains how you can setup your own website using this template, and 
 ### Using `.gitignore`
 
 - If you don't want certain files or folders to be tracked by the git repository (and thus uploaded to GitHub), add their paths relative to the project root to `.gitignore`. Do not remove the lines currently in `.gitignore` unless you know what you are doing.
+
+## Publishing to your GitHub page
+
+- Create a GitHub account (skip if you already have one, even if the website name you want is different to your username)
+- Link your `git` command with your GitHub account following the guide in `resources/git-guide.md`
+- Create a GitHub organization (your website URL will be `<organization-name>.github.io`) or just use your personal account (your website URL will be `<user-name>.github.io`) (replace the contents in angle brackets with the actual names)
+- From GitHub, create a repository named `<organization-name>.github.io` or `<user-name>.github.io` depending on whether you create the repository as the organization or as your personal account. Select "no license", and follow the guide on the website to push the local git repository to the remote (it is generally recommended to use the HTTPS protocol instead of SSH, as the connection is faster and it does not require generating ssh key pairs)
+- Refresh the GitHub repository page, and you should see a website deployment status. Refresh a few times and once you see a green ✅ you can go to the URL and see the newest webpage
