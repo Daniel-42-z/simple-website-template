@@ -7,7 +7,7 @@ minima:
     - index.md # Home page
     - articles.md
     - resources.md
-    - ph-ormula.md # See this file for how to add redirects in the top right section
+    - redirect-example.md
 title: Your Group Name
 description: Brief description here, no more than 1 sentence
 url: "https://your-website-name.github.io"
